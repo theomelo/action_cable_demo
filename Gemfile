@@ -8,6 +8,7 @@ gem "importmap-rails"
 gem "jbuilder"
 gem "pg", "~> 1.1"
 gem "puma", "~> 5.0"
+gem "rack-cors", "~> 2.0"
 gem "rails", "~> 7.0.7", ">= 7.0.7.2"
 gem "redis", "~> 4.0"
 gem "sprockets-rails"
@@ -23,3 +24,4 @@ end
 group :development do
   gem "web-console"
 end
+
